@@ -16,7 +16,6 @@ body {
     justify-content: center;
     align-items: stretch;
     gap: 18px;
-
 }
 .box {
     width: 300px;
@@ -91,7 +90,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
 }
 h2 {
     font-size: 36px;
@@ -103,6 +101,7 @@ h2 {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 52px;
     padding-bottom: 48px;
 }
@@ -128,3 +127,26 @@ h2 {
     padding-top: 10px;
 }
 /*Quote*/
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 100px 0 100px 0;
+}
+.quote-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+}
+.quote-signature {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 25px;
+}
