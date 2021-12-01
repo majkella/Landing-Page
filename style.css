@@ -8,6 +8,7 @@ body {
     display: flex;
     background-color: #1F2937;
 }
+/* Main view */
 .hero {
     display: flex;
     padding-top: 100px;
@@ -52,8 +53,9 @@ h1 {
 }
 img {
     flex: 1;
-    max-width: 100%;
-    max-height: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
 }
 .header {
     display: flex;
@@ -84,3 +86,45 @@ a {
     font-weight: 1000;
     color: #F9FAF8;
 }
+/*More Information*/
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 0;
+    padding: 48px;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 48px;
+}
+.info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+.info-1 img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6; 
+    border-radius: 18px;
+    flex: none;
+    object-fit: cover;
+}
+.info-text {
+    font-size: 18px;
+    font-weight: 250;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 10px;
+}
+/*Quote*/
